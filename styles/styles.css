@@ -1,0 +1,180 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../imgs/bg-body.png");
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li{
+    list-style: none;
+}
+
+.main-container {
+    margin: 0 auto;
+    width: 1180px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+/*LOGIN Y REGISTER */
+
+.menu-access{
+    width: 100%;
+}
+
+.menu-access ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.menu-access ul li{
+    margin: 5px;
+}
+
+/* LOGO */
+
+.main-header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.main-header img {
+    border-radius:50%;
+    width: 180px;
+    margin: 30px;
+}
+
+/* BARRA DE NAVEGACIÓN */
+
+.main-nav {
+    width: 100%;
+}
+
+.main-nav ul{
+    padding: 0;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.main-nav ul li{
+    background-color: #444;
+    color: white;
+    height: 50px;
+    width: 130px;
+    padding: 20px;
+}
+
+
+/* IMAGEN GRANDE */
+
+.banner{
+    width: 100%;
+    margin: 0px;
+    display: flex;
+}
+.banner-2{
+    width: 100%;
+}
+
+
+/* IMAGENES CHICAS 1° FILA */
+
+.padreArticles1{
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin:0px;
+}
+
+.padreArticles1 article{
+    display: flex;
+    flex-wrap: wrap;
+    width: 380px;
+    height: 380px;
+    margin: 30px 0px;
+}
+
+.padreArticles1 article img{
+    width: 300px;
+    margin:0px;
+}
+
+.padreArticles1 article p{
+    color:#444;
+}
+
+.botón {
+    background-color: #444;
+    text-decoration: none;
+    color: white;
+    padding:10px;
+    border: solid 2px black;
+}
+
+/* IMAGENES CHICAS 2° FILA */
+
+.padreArticles2{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.padreArticles2 article{
+    display: flex;
+    flex-wrap: wrap;
+    width: 380px;
+    height: 380px;
+    margin: 30px 0px;
+}
+.padreArticles2 article img{
+    width: 300px;   
+    margin: 0px;
+}
+
+.padreArticles2 article p{
+    color:#444;
+}
+.foto {
+    width: 100%;
+}
+
+
+/* FOOTER */
+
+.pieDePagina{
+    width: 100%;
+}
+
+.pieDePagina ul{
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    background-color:rgb(200,0,0);
+    padding: 30px;
+    color: white;
+    font-size: 12px;
+    margin: 40px 0px 0px 0px ;
+
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
